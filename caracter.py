@@ -1,2 +1,3 @@
 def caracter(letra):
-    return ord(letra)
+    num = ord(letra)
+    return bin(num)
