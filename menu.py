@@ -1,4 +1,5 @@
 from caracter import caracter
+from palabra1 import palabra
 from ascii import ascii
 def menu():
     while True:
@@ -12,7 +13,7 @@ def menu():
             print(caracter(letra))
         elif opcion == 2:
             palabra = input('Digite la palabra ')
-            print(caracter(palabra))
+            print(palabra1(palabra))
         elif opcion == 3:
             codigo = input('Digite el código ')
             print(ascii(codigo))
