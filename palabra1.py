@@ -1,6 +1,6 @@
-def palabra(palabra):
+def palabra(letras):
     resultado = ''
-    for letra in palabra:
+    for letra in letras:
         binario = ord(letra)
         resultado += {' ' + binario}
     return resultado

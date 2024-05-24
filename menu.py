@@ -12,8 +12,8 @@ def menu():
             letra = input('Digite la letra ')
             print(caracter(letra))
         elif opcion == 2:
-            palabra = input('Digite la palabra ')
-            print(palabra1(palabra))
+            letras = input('Digite la palabra ')
+            print(palabra(letras))
         elif opcion == 3:
             codigo = input('Digite el código ')
             print(ascii(codigo))
