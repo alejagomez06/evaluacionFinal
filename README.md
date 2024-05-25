@@ -20,4 +20,4 @@ Para ejecutar el programa, simplemente ejecute el archivo `menu.py` y siga las i
 - git ls-files
 
 ```bash
-python src/main.py
+python src/menu.py
